@@ -1,8 +1,10 @@
-
+.active-custom {
+    font-weight: bold;
+}
 
 /* Background Image Styling */
 body, .bg-details {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/Taglio-laser-metalli.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/resources/img/Taglio-laser-metalli.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,6 +13,10 @@ body, .bg-details {
 /* Text Color */
 .text {
     color: antiquewhite;
+}
+.text-carosel {
+    color: black;
+    font-weight: bold;
 }
 
 /* Navbar Shadow */
